@@ -3,21 +3,68 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 section{
-    margin: 50px 150px;
+    
+}
+a{
+    text-decoration: none;
 }
 h1{
     font-size: 50px;
 }
 .container{
     display: flex;
+    margin: 50px 150px;
 }
 .borderleft{
-    border-left: 5px solid red;
+    border-left:  5px solid #ff5959;
+    border-image-slice: 8;
+}
+.colorspan{
+    color: #ffad5a;
 }
 .half-width{
-    width: 50%;
+    width: 45%;
     padding: 50px 5px 0px 5px;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
+
+}
+.button{
+    border: 1px;
+    border-radius: 5px;
+    padding: 15px 35px;
+    background-color: #ff5959;
+    color: #fff;
+}
+.missiontext{
+    text-align: center;
+}
+.missionbox{
+    width: 300px;
+    height: ;
+    float: left;
+    border: 1px ;
+    border-radius: 30px;
+    padding: 35px;
+    margin-right: 40px;
+}
+.missionbox:last-child{
+    margin-right: 0;
+}
+.missionbox img{
+    height: 150px;
+}
+.missionbox h3{
+    font-weight: bolder;
+    font-size: 30px;
+}
+#mission{
+    background-color: #edf5f6;
+}
+#Vission{
+    background-color: #ffeeee;
+}
+#Goals{
+    background-color:#fff4d6;
 }

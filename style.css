@@ -2,18 +2,22 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-section{
-    
-}
 a{
     text-decoration: none;
 }
 h1{
     font-size: 50px;
 }
+p{
+    font-size: 20px;
+    font-weight: 300;
+}
+section{
+    margin: 0 50px;
+}
 .container{
     display: flex;
-    margin: 50px 150px;
+    margin: 50px 100px;
 }
 .borderleft{
     border-left:  5px solid #ff5959;
@@ -23,12 +27,14 @@ h1{
     color: #ffad5a;
 }
 .half-width{
-    width: 45%;
-    padding: 50px 5px 0px 5px;
+    width: 50%;
+    padding: 30px 0px 0px 0px;
+}
+.half-width p{
+    padding: 15px 0;
 }
 .half-width img{
-    width: 80%;
-
+    width: 100%;
 }
 .button{
     border: 1px;
@@ -41,13 +47,12 @@ h1{
     text-align: center;
 }
 .missionbox{
-    width: 300px;
-    height: ;
+    width: 310px;
     float: left;
     border: 1px ;
     border-radius: 30px;
     padding: 35px;
-    margin-right: 40px;
+    margin-right: 35px;
 }
 .missionbox:last-child{
     margin-right: 0;
@@ -67,4 +72,37 @@ h1{
 }
 #Goals{
     background-color:#fff4d6;
+}
+.content{
+    width: 60%;
+}
+.img{
+    width: 40%;
+}
+.leftside{
+    padding-right: 50px;
+}
+.rightside{
+    padding-left: 50px;
+}
+#project{
+    margin-right: 0;
+}
+#develop{
+    background-image: url(image/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: left;
+}
+#global{
+    background-image: url(image/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 15%;
+}
+footer{
+    text-align:center;
+    background-color: #0b0d17;
+    color: #fff;
+    padding: 25px 0;
 }

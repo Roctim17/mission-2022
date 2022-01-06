@@ -22,7 +22,7 @@ section{
     content: '';
     display: block;
     position: absolute;
-    background: #ff5959;
+    background: #fb5200;
     width: 3px;
     height: 112px;
     transform: translate(-250%, 18%);
@@ -47,7 +47,7 @@ section{
     border: 1px;
     border-radius: 5px;
     padding: 15px 35px;
-    background-color: #ff5959;
+    background-color: #fb5200;
     color: #fff;
 }
 .missiontext{
@@ -108,6 +108,27 @@ section{
     background-size: 15%;
     background-position-y: 80%;
     padding-bottom: 100px;
+}
+.contactbox{
+    display: flex;
+}
+#contact{
+    text-align: center;
+    background-image: url(image/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 42%;
+    background-position-x: 90%;
+}
+.contact{
+    border: 1px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 78.5%;
+    text-align: center;
+    background-color: #FFFFFF40;
+    box-shadow: 5px 5px 9px;
 }
 footer{
     text-align:center;

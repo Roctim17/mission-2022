@@ -9,7 +9,6 @@ h1{
     font-size: 50px;
 }
 p{
-    font-size: 20px;
     font-weight: 300;
 }
 section{
@@ -19,9 +18,17 @@ section{
     display: flex;
     margin: 50px 100px;
 }
+.borderleft::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #ff5959;
+    width: 3px;
+    height: 112px;
+    transform: translate(-250%, 18%);
+}
 .borderleft{
-    border-left:  5px solid #ff5959;
-    border-image-slice: 8;
+    padding-left: 12px;
 }
 .colorspan{
     color: #ffad5a;
@@ -99,10 +106,13 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     background-size: 15%;
+    background-position-y: 80%;
+    padding-bottom: 100px;
 }
 footer{
     text-align:center;
     background-color: #0b0d17;
     color: #fff;
     padding: 25px 0;
+    margin-top: 0;
 }

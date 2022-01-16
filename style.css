@@ -229,4 +229,11 @@ footer .colorspan{
     .rightside{
         padding-left: 5px;
     }
+    .button{
+        border: 1px;
+        border-radius: 5px;
+        padding: 15px 15px;
+        background-color: #fb5200;
+        color: #fff;
+    }
 }

@@ -151,9 +151,23 @@ footer .colorspan{
         margin: 0;
         flex-direction: column;
     }
+    h1{
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .borderleft::before{
+        height: 60px;
+        transform: translate(-350%, 10%);
+    }
     .half-width{
         width: 90%;
         text-align: center;
+    }
+    .borderleft{
+        text-align: start;
     }
     .missionarea{
         display: grid;
